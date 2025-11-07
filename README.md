@@ -7,18 +7,21 @@ Submission for the **Web3 Trading Team – Data Science Internship Assignment**.
 ## 📁 Repository Structure
 ```
 ds_Shubham_Kumar_Jha/
-├── notebook_1.ipynb            # Main Jupyter/Colab notebook (analysis & visuals)
-├── ds_report.pdf               # Final report
-├── README.md                   # Project overview (this file)
-├── csv_files/                  # Input and processed data
-│   ├── fear_greed_index.csv    # Market sentiment (Fear & Greed Index)
-│   ├── historical_data.csv     # Trader transactions / market data
-│   └── merged_daily_analysis.csv
-└── outputs/                    # Generated figures
-    ├── profit_vs_sentiment.png
-    ├── trade_count_vs_sentiment.png
-    ├── volume_vs_sentiment.png
-    └── pnl_vs_sentiment_timeseries.png
+├── README.md
+├── ds_report.pdf
+├── notebook_1.ipynb                # Main Jupyter/Colab notebook (analysis & visuals)
+├── notebooks/                      # Placeholder for additional notebooks
+│   └── .gitkeep
+├── needed/
+│   ├── csv_files/                  # Input and processed data
+│   │   ├── fear_greed_index.csv
+│   │   ├── historical_data.csv
+│   │   └── merged_daily_analysis.csv
+│   └── outputs/                    # Generated figures
+│       ├── profit_vs_sentiment.png
+│       ├── trade_count_vs_sentiment.png
+│       ├── volume_vs_sentiment.png
+│       └── pnl_vs_sentiment_timeseries.png
 ```
 
 ---
